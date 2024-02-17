@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8389e26-ebab-45ba-9177-2a45d5e72f57" name="Changes" comment="Heap reference implementation is ready">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="b8389e26-ebab-45ba-9177-2a45d5e72f57" name="Changes" comment="Changed JVM version">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/0083_matrix.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/0083_shortmatrix.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ProjectEulerProblem83.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ShortestPath.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/GraphTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/PriorityQueueTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Interfaces.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Interfaces.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/MinHeapTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MinHeapTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +41,34 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Assignment03" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Assignment03" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Assignment03" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Assignment03" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Assignment03" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Assignment03" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -41,14 +79,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -60,10 +102,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build Assignment03.executor": "Run",
+    "Gradle.GraphTest.executor": "Run",
     "Gradle.MinHeapTest.adjustPriority.executor": "Run",
     "Gradle.MinHeapTest.executor": "Run",
     "Gradle.MinHeapTest.insert.executor": "Run",
     "Gradle.MinHeapTest.isEmpty.executor": "Run",
+    "Gradle.PriorityQueueTest.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -89,7 +135,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MinHeapTest.isEmpty">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="MinHeapTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -186,10 +232,18 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MainKt" />
+      <module name="Assignment03.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MinHeapTest.isEmpty" />
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Gradle.MinHeapTest" />
+        <item itemvalue="Gradle.MinHeapTest.isEmpty" />
         <item itemvalue="Gradle.MinHeapTest.adjustPriority" />
         <item itemvalue="Gradle.MinHeapTest.insert" />
       </list>
@@ -211,7 +265,9 @@
       <option name="presentableId" value="Default" />
       <updated>1707095916322</updated>
       <workItem from="1707095917467" duration="7199000" />
-      <workItem from="1707430671790" duration="86000" />
+      <workItem from="1707430671790" duration="787000" />
+      <workItem from="1707440442182" duration="35399000" />
+      <workItem from="1708104410865" duration="17150000" />
     </task>
     <task id="LOCAL-00001" summary="Added heap implementation.">
       <option name="closed" value="true" />
@@ -229,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707109428872</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed JVM version">
+      <option name="closed" value="true" />
+      <created>1707430778955</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707430778955</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +302,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added heap implementation." />
     <MESSAGE value="Heap reference implementation is ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Heap reference implementation is ready" />
+    <MESSAGE value="Changed JVM version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed JVM version" />
   </component>
 </project>

@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions.*
 
 class MinHeapTest {
-
     @Test
     fun insert() {
         val heap = MinHeap<String>()

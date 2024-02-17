@@ -1,5 +1,8 @@
 package org.example
 
 fun main() {
-    println("Hello World!")
+    val setupproblem = ProjectEulerProblem83()
+    val finalresult = setupproblem.solve()
+    println("The Final Sum is:")
+    println(finalresult)
 }
