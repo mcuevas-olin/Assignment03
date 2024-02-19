@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8389e26-ebab-45ba-9177-2a45d5e72f57" name="Changes" comment="Changed JVM version">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/0083_matrix.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/0083_shortmatrix.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ProjectEulerProblem83.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ShortestPath.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/GraphTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/PriorityQueueTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Interfaces.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Interfaces.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/MinHeapTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MinHeapTest.kt" afterDir="false" />
-    </list>
+    <list default="true" id="b8389e26-ebab-45ba-9177-2a45d5e72f57" name="Changes" comment="SUbmitting Assignment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,7 +254,7 @@
       <workItem from="1707095917467" duration="7199000" />
       <workItem from="1707430671790" duration="787000" />
       <workItem from="1707440442182" duration="35399000" />
-      <workItem from="1708104410865" duration="17150000" />
+      <workItem from="1708104410865" duration="17306000" />
     </task>
     <task id="LOCAL-00001" summary="Added heap implementation.">
       <option name="closed" value="true" />
@@ -293,16 +280,36 @@
       <option name="project" value="LOCAL" />
       <updated>1707430778955</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SUbmitting Assignment">
+      <option name="closed" value="true" />
+      <created>1708204596869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708204596869</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added heap implementation." />
     <MESSAGE value="Heap reference implementation is ready" />
     <MESSAGE value="Changed JVM version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed JVM version" />
+    <MESSAGE value="SUbmitting Assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="SUbmitting Assignment" />
   </component>
 </project>
